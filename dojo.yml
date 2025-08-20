@@ -6,9 +6,8 @@ award:
 image: pwncollege/challenge-simple
 modules:
   - id: hello
-    interface: {
-      Test: 2020,
-      Other: 2222,
-    }
+    interface:
+      Test: 2020
+      Other: 2222
   - id: world
   - id: demo

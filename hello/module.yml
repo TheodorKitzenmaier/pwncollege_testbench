@@ -2,8 +2,7 @@ name: Hello
 challenges:
   - id: apple
     name: Apple
-    interface: {
-      Apple: 9999,
-    }
+    interface:
+      Apple: 9999
   - id: banana
     name: Banana
