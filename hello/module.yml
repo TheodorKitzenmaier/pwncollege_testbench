@@ -3,6 +3,6 @@ challenges:
   - id: apple
     name: Apple
     interface:
-      Apple: 9999
+      SSH: "ssh"
   - id: banana
     name: Banana
