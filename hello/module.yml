@@ -6,4 +6,3 @@ challenges:
       SSH: "ssh"
   - id: banana
     name: Banana
-    interface:
