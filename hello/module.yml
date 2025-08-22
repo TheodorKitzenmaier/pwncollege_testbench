@@ -2,7 +2,13 @@ name: Hello
 challenges:
   - id: apple
     name: Apple
-    interface:
-      SSH: "ssh"
+    interfaces:
+    - name: SSH
   - id: banana
     name: Banana
+    interfaces:
+    - name: SSH
+    - name: Challenge
+      port: 80
+    - name: Terminal
+      port: 7681

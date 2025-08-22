@@ -6,8 +6,10 @@ award:
 image: pwncollege/challenge-simple
 modules:
   - id: hello
-    interface:
-      Challenge: 80
-      Terminal: 7681
+    interfaces:
+    - name: Challenge
+      port: 80
+    - name: Terminal
+      port: 7681
   - id: world
   - id: demo

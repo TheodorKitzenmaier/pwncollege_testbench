@@ -2,15 +2,18 @@ name: World
 challenges:
   - id: earth
     name: Earth
-    interface:
-      SSH: "ssh"
+    interfaces:
+    - name: SSH
   - id: mars
     name: Mars
-    interface:
-      Terminal: 7681
-      Code: 8080
+    interfaces:
+    - name: Terminal
+      port: 7681
+    - name: Code
+      port: 8080
   - id: venus
     name: Venus
-    interface:
-      SSH: "ssh"
-      Terminal: 7681
+    interfaces:
+    - name: SSH
+    - name: Terminal
+      port: 7681
